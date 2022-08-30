@@ -24,4 +24,4 @@ class Command(BaseCommand):
                 # Not handling specific Exception for demo purposes
                 self.stdout.write(self.style.ERROR(f'Item with record {i} failed to be inserted.'))
 
-        self.stdout.write(self.style.SUCCESS(f'Successfully filled databases with {MAX_RECORDS} more records.'))
+        self.stdout.write(self.style.SUCCESS(f'Successfully filled database with {MAX_RECORDS} more records.'))
