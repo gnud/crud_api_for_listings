@@ -45,6 +45,9 @@ INSTALLED_APPS = [
     'realestate.apps.RealestateConfig',
 ]
 
+if DEBUG:
+    INSTALLED_APPS += ['drf_yasg']
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
