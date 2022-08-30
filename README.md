@@ -111,15 +111,23 @@ To run tests, run the following command
   ./manage.py test
 ```
 
+# Docs
 
-# API
+### Initial setup
 
-## Swagger
+```bash
+  pip install -r requirements_doc.txt
+```
+
+### Swagger
 
 - http://127.0.0.1:8000/swagger/redoc/
 - http://127.0.0.1:8000/swagger/swagger/
 - http://127.0.0.1:8000/swagger/swagger.json
 - http://127.0.0.1:8000/swagger/swagger.yaml
+
+
+# API
 
 ## AUTH
 
